@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+</head>
+
+<style>
+   
+    body{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(179, 197, 146);
+        
+        
+    }
+    .header{
+        color: blue;
+        font-size: 50px;
+        text-align: left;
+        width: 100%;
+        height:150px ;
+        background-image: url(/bg.img);
+        border: 1px solid blue;
+        
+            
+    }
+
+   
+
+    
+   
+    .item{
+        margin: 100px 0px 0px 0px;
+        
+    }
+    
+    .item a{
+        font-size: 45px;
+        margin-left: 20px;
+        padding: left 20px;
+        padding-bottom: 20px;
+        text-align: left;
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .item2{
+        display: inline-block;
+        margin:10px 1px 100px 1px ;
+        padding: 5px;
+        width: 1000px;
+        height: 800px;
+        border: 2px solid red;
+        overflow: auto;
+       
+    }
+    .item3{
+        float: right;
+        margin: 10px 5px 0px 5px;
+        width:455px;
+	    height:800px;
+        margin:10px 3px 100px 10px ;
+        padding: 5px;
+        border: 2px solid red;
+        overflow: scroll;
+
+        
+    }
+    .c1{
+        float: right;
+        margin-right: 30px;
+        height: 140PX;
+        width: 140px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 147px;
+        background-color: rgb(233, 33, 143);
+
+    }
+     #box1{
+        background-color: rgb(233, 33, 143) ;
+        border-style: none;
+        
+     }
+
+    .c2{
+        float: right;
+        margin-right: 30px;
+        height: 140PX;
+        width: 140px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 147px;
+        background-color: rgb(28, 121, 241);
+    }
+
+    #box2{ 
+        background-color: rgb(28, 121, 241);
+        border-style: none;
+
+    }
+
+    .c3{
+        float: right;
+        margin-right: 30px;
+        height: 140PX;
+        width: 140px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 147px;
+        background-color: rgb(58, 185, 7);
+    }
+    #box3{
+        background-color: rgb(58, 185, 7);
+        border-style: none;
+
+
+    }
+
+
+
+    .item4{
+        background-color: rgb(108, 124, 121);
+        width: auto;
+        height: 60px;
+        margin:auto;
+        border: 0px;
+        text-align: right;
+        
+        
+
+    }
+    
+
+
+</style>
+<body>
+
+    <div class="header">
+    
+       
+        <nav class="item">
+        <a href="home.html" onclick="openNewPage()">HOME</a>
+        <!-- <div class="imageText">YOUR TEXT IS HERE</div> -->
+        <a href="./about.html" onclick ="newPage()">ABOUT</a>
+        <!-- <div id="infoA" style="display: none;"> # will try this method sometime -->
+            <!-- .Here is some additional info that is hidden by default.</p></div> --> 
+        <a href="./contact.html" onclick="contactPage()">CONTACT</a>
+        <!-- <div id="infoC" style="display: none;">  another method can be also used--</div> -->
+        
+
+        </nav>
+    </div>
+        <section class="item2">
+            <h1>Hello!</h1>
+            <h2> A Bit About Me</h2>
+            <div class="c1"><button id="box1">Projects</button></div>
+            <div class="c2"><button id="box2">Skills</button></div>
+            <div class="c3"><button id="box3">About Me</button></div>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate! Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate! Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis.
+                 Voluptate! Voluptate!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!</p>
+
+        </section>
+        <aside class="item3">
+            <h2>My Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate! Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate! Eum expedita dolores commodi debitis aliquam? Ad quaerat nam in numquam, ducimus distinctio nobis facere laborum delectus repudiandae harum dicta perferendis. Voluptate!</p>
+    
+        </aside>
+        <footer class="item4">
+            &copy; 2023 by Faiza
+
+        </footer>
+
+    </div>
+     
+ <script src="./FP.JS"></script>
+</body>
+</html>
